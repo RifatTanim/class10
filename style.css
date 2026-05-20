@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Common css */
+
+
+
+
+.section {
+    padding: 2.5rem 0;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.header {
+    background-color: #245D51;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list,
+.hader-btn {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    list-style: none;
+}
+
+.nav-list .nav-items a,
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.hader-btn a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+span {
+    color: #CB8461;
+}
+
+.nav-item {
+    opacity: 50%;
+}
+
+.nav-item.active {
+    opacity: 100%;
+}
+
+
+.btn-primary {
+    padding: 8px 40px;
+    background-color: #CB8461;
+    border-radius: 8px;
+}
+
+.parent
+{
+    display: flex;
+    align-items: center;
+    background-color: #245D51;
+}
