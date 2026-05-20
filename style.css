@@ -81,4 +81,17 @@ span {
     display: flex;
     align-items: center;
     background-color: #245D51;
+    position: relative;
+}
+
+
+.cart {
+    width: 250px;
+    padding: 1.5rem;
+    background-color: white;
+    opacity: 50%;
+    border-radius: 8px;
+    position: absolute;
+    top: 300px;
+    right: 600px;
 }
